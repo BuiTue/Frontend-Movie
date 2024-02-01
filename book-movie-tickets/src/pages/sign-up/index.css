@@ -1,0 +1,58 @@
+.sign-up-container {
+    width: 800px;
+    margin: 12% auto;
+}
+
+.sign-up-header h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.ant-form-item {
+    margin-bottom: 6px;
+}
+
+.ant-checkbox-wrapper {
+    font-size: 13px !important;
+}
+
+.ant-picker {
+    width: 100%;
+}
+
+Button {
+    width: 100%;
+}
+
+.sign-up-footer-or {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-footer-line-1, .sign-up-footer-line-2 {
+    width: 40%;
+    height: 12px;
+    border-bottom: 1px solid #9c9898;
+}
+
+.sign-up-footer Button {
+    margin-top: 20px;
+}
+
+.sign-up-footer-link {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-footer-link p a {
+    text-decoration: underline;
+}
+
+.sign-up-image {
+    display: flex;
+    align-items: center;
+}
+
+.ant-image-img {
+    margin-top: 24px;
+}

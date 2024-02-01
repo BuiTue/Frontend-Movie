@@ -1,0 +1,49 @@
+.header-nabav {
+    width: 100%;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: bisque;
+
+}
+
+.header-nabav-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.header-nabav-logo {
+    display: flex;
+    gap: 10px;
+}
+
+
+.header-nabav-logo div .ant-image-img {
+    margin-top: 0;
+}
+
+.header-nabav-logo-note h3 {
+    margin: 0;
+}
+
+.header-nabav-logo-note p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.header-nabav-info {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nabav-info button {
+    margin-top: 2px;
+}
+
+.header-nabav-info-user {
+    font-size: 20px;
+    padding-bottom: 3px;
+}

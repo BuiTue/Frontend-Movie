@@ -1,0 +1,20 @@
+.homepage-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 120px 60px 120px;
+    background-color: #fafafa;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none
+}
+
+.homepage-footer-item-contact {
+    display: flex;
+    gap: 20px;
+}

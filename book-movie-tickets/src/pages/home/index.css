@@ -1,0 +1,187 @@
+.homepage-header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Đảm bảo không có nội dung nào tràn ra khỏi phần giữa */
+}
+
+.homepage-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt và điều chỉnh hình ảnh để vừa với phần tử cha */
+}
+
+.homepage-header-image {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage-header-image-item {
+    padding-top: 200px;
+}
+
+.homepage-header-image-item-active {
+    padding-top: 0 !important; 
+}
+
+.homepage-header-image img {
+    border-radius: 5px;
+}
+
+.image-container {
+    position: relative;
+}
+  
+.movie-details {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.movie-details-text {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.movie-details button {
+    font-weight: 700;
+    background-color: red;
+    color: #fff;
+    border: none;
+    width: 120px;
+}
+
+.homepage-container {
+    margin-top: 40px;
+}
+
+.homepage-container-list-item {
+    padding: 10px 100px;
+    margin-bottom: 50px;
+}
+
+.homepage-container-list-item-header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.homepage-container-list-item-header h2 {
+    font-size: 30px;
+}
+
+.homepage-container-list-item-header button {
+    width: 150px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+}
+
+.homepage-container-list-item-content {
+    position: relative;
+}
+
+.homepage-container-list-item-content-details {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: #fff;
+}
+
+.homepage-container-list-item-content-details-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.homepage-container-list-item-content-details button {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+}
+
+.homepage-container-about-us {
+    padding: 10px 100px;
+    margin-bottom: 50px;
+    
+}
+
+.homepage-container-about-us-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.homepage-container-about-us-history {
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0 10px 10px -10px; */
+    margin-bottom: 50px;
+}
+
+.homepage-container-about-us-history-detail-1,
+.homepage-container-about-us-history-detail-2 {
+    align-items: center;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+  
+  .movie-item {
+    width: 280px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-item h3 {
+    margin: 10px 0;
+    font-size: large;
+  }
+  
+  .movie-item p {
+    color: #666;
+  }
+  .moveToDetail {
+    text-decoration: none !important;
+  }
+  .homepage-container-list-item-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  /* Khi trỏ vào, mờ đi và tăng kích thước */
+  .movie-item:hover {
+    transform: scale(1.1);
+    filter: brightness(50%);
+    z-index: 1; /* Đặt z-index để ảnh nổi lên trên các phần tử khác */
+  }
+  
+
+
+

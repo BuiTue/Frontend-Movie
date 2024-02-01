@@ -1,0 +1,109 @@
+.pay-ment-sale {
+    padding: 200px 200px 50px;
+    border-bottom: 10px solid #f2f1f1;
+}
+
+.pay-ment-sale-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pay-ment-sale form {
+    margin-bottom: 10px;
+}
+
+.pay-ment-sale form button {
+    background: orange;
+    color: #fff;
+    width: 150px;
+    border: none;
+}
+
+.pay-ment-sale-note {
+    font-size: 12px;
+    color: #868686;
+    margin-bottom: 20px;
+}
+
+.pay-ment-sale-select {
+    margin-bottom: 20px;
+}
+
+.pay-ment-sale-select .ant-select .ant-select-selector {
+    border: none;
+}
+
+.pay-ment-methods {
+    padding: 30px 200px 50px;
+}
+
+.pay-ment-methods-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pay-ment-methods img {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.pay-ment-methods-item {
+    margin-bottom: 10px;
+}
+
+.pay-ment-methods-note {
+    font-size: 14px;
+    color: #868686;
+}
+
+.pay-ment-container {
+    padding: 0 100px;
+    width: 400px;
+}
+
+.pay-ment-container-detail {
+    display: flex;
+    gap: 10px;
+    height: 210px;
+}
+
+.pay-ment-container-cinema,
+.pay-ment-container-amount,
+.pay-ment-container-total {
+    margin-top: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #bcbfbc;
+}
+
+.pay-ment-container-name {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.pay-ment-container-amount,
+.pay-ment-container-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-ment-container-total 
+.pay-ment-container-price {
+    color: orangered;
+}
+
+.pay-ment-container-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+.btn-next {
+    background-color: orangered;
+    color: #fff;
+}

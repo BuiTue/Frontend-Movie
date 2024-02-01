@@ -1,0 +1,26 @@
+.seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  .available {
+    background-color: #b2dfdb;
+  }
+  
+  .selected {
+    background-color: red;
+  }
+  
+  .cinema-hall {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .seat-row {
+    display: flex;
+  }
